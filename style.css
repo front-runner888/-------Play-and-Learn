@@ -1,0 +1,185 @@
+body{
+    max-width:  1400px;
+    margin: 0 auto;
+    background-image: url(https://yandex-images.clstorage.net/5nFH4F113/765da0PBAr/qLLvzCHlA0c1qA8itqd5-RKyxsMUMayQO_guJTQas91beRTPS5qvXDyWoKygpXGZ68q_d0zwh-9H0XRv6D4HeOviqphnu0RHMLxEKPq9dekH_tuADiP0nA3DUgYUIZnuKw9v4AOZ9wxt3L3nt5sdiZq9zylDx_mSG68EWedFag2Osf7nFsZKZDi6YjCyrG_lCdL4zRZwqt0W61woJwiH7Qc6YvY3mv4JTv7x7Y69GOyWl9EMb_f9rTKjLkTod286q6newTr3REsUqGIStr1uxDP20e4adKL6IcpVMg4WmdouIHTtPJ7uHWT1yv-Yli3ctZHTI3Dp2osUrg53yWFMOoaQ1MIGwkZhA7l3GrOHVtgl9cLiBUSuwDH9WT03GZf9CS9L4D-21hFh8OHEkpQGzKiq1T5C6-acAIYWfMlabhKRpMPbI_Vkbyu3YD6emnvaG_L87RNdgcAZ-UABJTWUzC0Yfu8LoMwOWODF7KSSF9yEo-wGUOPBnxmRI3LURncBppLJ-TjxT10kgkYUs7xI2QzR4-UXb7PBI-9kMxIYoOghGHXcHon6K3r99cWqlxHNqbbDKUvV1IAWixlF4ndLEp-c7uYy82FkGbFkOJ2xTus6_8TAFmSm4xPJViAePZ3kJxhI1iqyzyl57NvAlYUwzoSW_j1m9fSZH6g2Suphcg23qfT_JuZ5Uz2Ncii8gn76BOnO9Qxpodgh30Y1ETOPzxQeTMYouvgwYvLL5oiyEvGVmv0OeN74uiGNEHHhQUwajJf66hH5aUUkqXYJg4pP-zrY_OUVZ5LMNvBrPTcZntkxH0nWLrHyOGDF1fSGrRTBtrnNC27n54o6sgNB0lhsP5uS_eAez2VrAp5mCKOeZ90nxsDILUmC1THxdQsZLrz4FypCyAiX0QZSxsDSjq4sxJGvzwVo58S8E6oOUdRJVi24sOrYJcVafQiQWB2Er03zCMv61zJJkvgLz3sIEwY);
+    /* background-size:100%; */
+    background-size:100% ;
+    font-family:Book Antiqua;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    top: 0;
+    margin: 20px 0;
+    align-items: center;
+    background-color: rgb(216, 200, 230);
+    opacity: 0.9;
+}
+
+
+.logo{
+    width: 150px;
+}
+ h1 span{
+    font-family:Book Antiqua;
+    display: inline-block;
+font-size: 30px;
+text-shadow: 5px 5px 5px rgb(150, 150, 158);
+animation: h1 2s infinite calc(.2s*var(--i));
+-webkit-box-reflect: below 0 linear-gradient(transparent, white);
+ }
+@keyframes h1{
+
+    0%, 100% {
+        transform: translateY(0px);
+    }
+50% {
+    transform: translateY(-20px);
+}
+
+}
+
+
+/* .title:hover{
+    text-shadow: 15px 15px 15px black;
+    transform: scale(1.2);
+} */
+.menu{
+    display: flex;
+    list-style-type: none; 
+    font-size: xx-large;
+}
+a{
+   text-decoration:none; 
+   border: 1px solid black;
+   padding: 12px;
+   margin: 5px;
+    
+}
+.main{
+    display: flex;
+    background-color: rgb(216, 200, 230);
+    padding:20px ;
+   
+}
+.main-catalogue{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(216, 200, 230) ;
+    padding: 20px;
+}
+.section1{
+    display: flex;
+    border: 5px solid rgb(159, 139, 172);
+    border-radius: 10px ;
+    margin:30px ;
+    padding: 30px;
+    box-shadow: 15px 15px 20px rgb(83, 63, 99);
+       
+}
+.section2{
+    display: flex;
+    border: 5px solid rgb(159, 139, 172);
+    border-radius: 10px ;
+    margin:30px ;
+    padding: 30px;
+    box-shadow: 15px 15px 20px rgb(83, 63, 99);
+    position: sticky;
+    top: 50px;
+    right:50px;
+       
+}
+.section3{
+    display: flex;
+    border: 5px solid rgb(159, 139, 172);
+    border-radius: 10px ;
+    margin:30px ;
+    padding: 30px;
+    box-shadow: 15px 15px 20px rgb(83, 63, 99);
+       
+}
+
+    
+
+.img-section{
+    width: 100;
+    border-radius:10px ;
+}
+.text{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.card{
+     
+    width: 250px;
+    text-align: center;
+    border: solid 1px rgb(47, 47, 53);
+    border-radius: 15px;
+    box-shadow:15px 15px 15px rgb(83, 63, 99) ;
+    padding: 10px;
+    margin: 31px;
+}
+
+.card:hover{
+    background-color: beige;
+    border: solid 3px black;
+    /* text-shadow: 15px 15px 15px black; */
+    transform: scale(1.2);
+}
+
+.card-img{
+    width: 200px;
+    border-radius: 5px;
+}
+.card-btn{
+    background-color: rgb(237, 147, 105);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 5px;
+}
+
+    @media (max-width:1380px){
+        header{
+             margin: 10px 0;     
+        }
+        .logo{
+            width: 100px;
+        }
+        h1 span{
+            font-size: 20px;   
+         }
+         .menu{
+              font-size: 20px;
+        }    
+        .card{
+     
+            width: 200px;
+            padding: 8px;
+            margin: 20px;
+        }
+    }
+    @media (max-width:1000px){
+        .card{
+     
+            width: 100px;
+            text-align: center;
+            border: solid 1px rgb(47, 47, 53);
+            border-radius: 15px;
+            box-shadow:15px 15px 15px rgb(49, 99, 180) ;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .card-img{
+
+            width: 100px;
+             
+        }
+    }
